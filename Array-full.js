@@ -57,5 +57,8 @@ let myAllBook = myBook.concat(myGroupBook);
 console.log(myAllBook.length);
 console.log(myAllBook);
 
-
+// Array এর মধ্যের একসেট উপাদানকে দেখানোর জন্য Slice ব্যবহার করা হয় ।
+let arr_11 = [12,23, 34, 45, 656, 56, 56, 67, 56];
+let arr_slice = arr_11.slice(2, 6);
+console.log(arr_slice);
 
