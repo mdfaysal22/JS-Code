@@ -1,6 +1,5 @@
 /**
  * To determine whether a year is a leap year, follow these steps:
-
     If the year is evenly divisible by 4, go to step 2. Otherwise, go to step 5.
     If the year is evenly divisible by 100, go to step 3. Otherwise, go to step 4.
     If the year is evenly divisible by 400, go to step 4. Otherwise, go to step 5.
@@ -30,5 +29,5 @@ function leapYearCount(leapYear){
     }
 }
 
-const myYear = 1900;
+const myYear = 1800;
 console.log('This Year is Leap Year?', leapYearCount(myYear));
