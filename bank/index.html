@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        input:focus{
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-11/12	bg-cyan-900	 mx-auto mt-9 rounded-lg p-6">
+        <header>
+            <h1 class="text-center text-4xl	font-bold text-slate-200 uppercase	">My Balance System</h1>
+        </header>
+        <main>
+            <section class="w-full my-6 mx-auto grid gap-4 grid-cols-3">
+                <div class="bg-sky-600	p-3 rounded-md text-amber-50	">
+                    <h2 class="text-3xl	font-semibold">Deposit</h2>
+                    <h1 class="text-7xl	my-4">$<span id="privious">000</span></h1>
+                </div>
+                <div class="bg-sky-600	p-3 rounded-md text-amber-50	">
+                    <h2 class="text-3xl	font-semibold">Withdraw</h2>
+                    <h1 class="text-7xl	my-4">$<span>000</span></h1>
+                </div>
+                <div class="bg-sky-600	p-3 rounded-md text-amber-50	">
+                    <h2 class="text-3xl	font-semibold">Total Balance</h2>
+                    <h1 class="text-7xl	my-4">$<span id="totalTaka">1200</span></h1>
+                </div>
+            </section>
+            <section class="w-full mx-auto grid gap-4 grid-cols-2">
+                <div class="bg-sky-400 p-6 rounded-md">
+                    <h2 class="text-3xl my-3 font-samibold text-amber-50">Deposit Amount</h2>
+                    <input id="inputDeposit" class="p-2 block w-10/12 rounded" type="text" placeholder="Type Deposite Amount Here">
+                    <button id="deposit" class="bg-sky-600 hover:bg-sky-700 my-3 p-2 text-1xl text-amber-50 rounded-md">Deposit</button>
+                </div>
+                <div class="bg-sky-400 p-6 rounded-md">
+                    <h2 class="text-3xl my-3 font-samibold text-amber-50">Withdraw</h2>
+                    <input class="p-2 block w-10/12 rounded" type="text" placeholder="Type Your Withdraw Amount Here">
+                    <button class="bg-sky-600 hover:bg-sky-700 my-3 p-2 text-1xl text-amber-50 rounded-md">Withdraw</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

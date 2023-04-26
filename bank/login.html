@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Log-in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+            transition: all 0.4s ease;
+        }
+        input:focus{
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-11/12	bg-cyan-900	 mx-auto mt-9 rounded-lg p-6">
+        <header>
+            <h1 class="text-center text-4xl	font-bold text-slate-200 uppercase	">Bank Account Login System</h1>
+        </header>
+        <section class="bg-sky-800 p-5 my-5 w-6/12 mx-auto flex flex-col">
+            <h1 class="text-amber-50 text-4xl mb-3 text-center">Login</h1>
+            <input id="email" class="my-3 p-1 rounded" type="text" placeholder="Type Your Login Email Here">
+            <input class="mb-3 p-1 rounded" type="password" name="" id="passwordId" placeholder="Type your password Here">
+            <div>
+                <button id="logIn" class="bg-sky-900 hover:bg-sky-700 my-3 p-2 text-1xl text-amber-50 rounded-md">Login</button>
+                <button id="forget" class="bg-sky-900 hover:bg-sky-700 my-3 p-2 text-1xl text-amber-50 rounded-md">Forgat Account</button>
+            </div>
+        </section>
+        
+    </div>
+    <section class="bg-zinc-900 w-11/12 mx-auto rounded-lg 	py-9 my-9 text-slate-200 text-center ">
+        <h1 class="text-3xl uppercase py-2">Our Banking System</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque porro, numquam vero asperiores fugit quae non iste blanditiis id.</p>
+        <p>Copyright By @ Md Faysal.</p>
+    </section>
+
+
+    <script src="./js/login.js"></script>
+</body>
+</html>

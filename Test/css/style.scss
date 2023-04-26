@@ -1,0 +1,65 @@
+@import '_reset.scss';
+.header{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: rgba(127, 255, 212, 0.738);
+}
+.review-container{
+    h2{
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .review-box{
+        margin: 2rem auto;
+        width: 70%;
+        text-align: justify;
+        background-color: bisque;
+        padding: 2rem;
+        border-radius: 10px;
+       
+        small{
+            padding-bottom: 1rem;
+            display: inline-block;
+        }
+        p{
+            font-size: x-small;
+        }
+    }
+}
+
+.form-area{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .input-name{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input{
+            width: 70%;
+            padding: 5px 0;
+            margin: 5px 10px;
+        }
+        textarea{
+            width: 70%;
+            padding: 5px 0;
+            margin: 5px 10px;
+        }
+        
+    }
+    .btn{
+        padding: 10px 14px;
+        background-color: rgb(255, 170, 0);
+        border: 0;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
+
